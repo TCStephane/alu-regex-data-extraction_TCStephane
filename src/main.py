@@ -72,9 +72,13 @@ def is_valid_phone(phone):
     digits_only = re.sub(r'[\s\(\)\-\+\.]', '', phone)
     if not digits_only.isdigit():
         return False
-    if len(set(digits_only)) == 1:  # all same digit e.g. 00000000
+    if len(set(digits_only)) == 1: 
         return False
     if not (7 <= len(digits_only) <= 15):
+        return False
+    if len(digits_only) == 16:
+        return False
+    if len(digits_only) >= 13 and digits_only[0] in ['3', '4', '5']:
         return False
     return True
 
