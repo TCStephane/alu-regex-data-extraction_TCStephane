@@ -6,7 +6,7 @@ with open("input/raw-text.txt", "r") as f:
 
 email_pattern = r'[\w\.-]+@[\w\.-]+\.[a-zA-Z]{2,}'
 card_pattern = r'\b\d{4}[\s-]\d{4,6}[\s-]\d{4,6}[\s-]\d{3,4}\b'
-url_pattern = r'https?://[\w\.-]+[^\s\'"<>]'
+url_pattern = r'https?://[\w\.-]+[^\s\'"<>]*'
 phone_pattern = r'(\+\d{1,3}[\s-])?(\(?\d{2,4}\)?[\s.-]?\d{3,4}[\s.-]?\d{3,4})'
 
 all_mails = re.findall(email_pattern, text)
@@ -81,3 +81,18 @@ def is_valid_phone(phone):
 safe_phones = [p for p in all_phones if is_valid_phone(p)]
 
 print("\n\nPhone Numbers:", safe_phones)
+
+output = {
+    "emails": {
+        "general": general_emails,
+        "alu": alu_emails
+    },
+    "credit_cards": masked_cards,
+    "urls": safe_urls,
+    "phone_numbers": safe_phones
+}
+
+with open("output/sample-output.json", "w") as f:
+    json.dump(output, f, indent=4)
+
+print("\n\nResults saved to output/sample-output.json")

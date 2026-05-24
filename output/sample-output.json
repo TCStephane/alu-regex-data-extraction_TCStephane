@@ -1,0 +1,67 @@
+{
+    "emails": {
+        "general": [
+            "alice.nkemdirim@acmecorp.com",
+            "j.okafor@acmecorp.com",
+            "fatima.alrashid@acmecorp.com",
+            "d.mensah@acmecorp.com",
+            "sophie.tremblay@acmecorp.com",
+            "KWAME.ASANTE@ACMECORP.COM",
+            "m.santos@acmecorp.com",
+            "amara.diallo@acmecorp.com"
+        ],
+        "alu": [
+            "a.nkemdirim@alumni.alueducation.com",
+            "james.okafor@si.alueducation.com",
+            "f.rashid@alueducation.com",
+            "david.mensah@alumni.alueducation.com",
+            "k.asante@alueducation.com",
+            "a.diallo@si.alueducation.com"
+        ]
+    },
+    "credit_cards": [
+        "**** **** ****1111",
+        "**** **** ****0004",
+        "**** **** ****1881",
+        "**** **** ****5100",
+        "**** **** ****6467",
+        "**** **** ****0002",
+        "**** **** ****9903"
+    ],
+    "urls": [
+        "https://acmecorp.com/employees/alice-nkemdirim",
+        "https://www.linkedin.com/in/alicenk",
+        "https://acmecorp.com/employees/james-okafor",
+        "http://acmecorp.com/team/fatima",
+        "https://fatima-designs.io/portfolio?ref=acme&year=2024",
+        "https://acmecorp.com/employees/david-mensah",
+        "https://acmecorp.com/hr/sophie-tremblay",
+        "https://research.acmecorp.com/kwame",
+        "https://github.com/kwameasante",
+        "https://acmecorp.com/legal/maria-santos",
+        "https://evil.com/redirect?to=http://acmecorp.com",
+        "https://acmecorp.com/operations/amara"
+    ],
+    "phone_numbers": [
+        "+1-202-555-0174",
+        "+1 (202) 555 0199",
+        "4111 1111 1111",
+        "+44 7911 123456",
+        "5500-0000-0000",
+        "3714 496353",
+        "0712-345-678",
+        "4012 8888 8888",
+        "+233 20 900 1234",
+        "4916 338506",
+        "+1-514-555-0187",
+        "(514) 555-0199",
+        "5105 1051 0510",
+        "+233-30-270-1234",
+        "4539 1488 0343",
+        "91234-5678",
+        "4000 0000 0000",
+        "+1-000-000-0000",
+        "411111111111",
+        "5425 2334 3010"
+    ]
+}
