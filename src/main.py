@@ -2,6 +2,6 @@ import re
 import json
 
 with open("input/raw-text.txt", "r") as f:
-    texr = f.read()
+    text = f.read()
 
-print("File loaded successfully")
+email_pattern = r'[\w\.-]+@[\w\.-]+\.[a-zA-Z]{2,}'
