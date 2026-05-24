@@ -18,3 +18,5 @@ def is_safe_email(email):
         return False
     
     return True
+
+safe_emails = [e for e in all_mails if is_safe_email(e)]
